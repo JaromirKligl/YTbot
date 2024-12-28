@@ -8,6 +8,7 @@ import pathlib
 
 import images
 import songs
+import rullete
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -21,7 +22,7 @@ bot = commands.Bot(command_prefix='%', intents=intents)
 
 images.setup(bot)
 songs.setup(bot)
-
+rullete.setup(bot)
 
 @bot.event
 async def on_ready():
