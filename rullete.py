@@ -1,9 +1,7 @@
 import discord
 import pickle
-import code
 import os
 import random
-import asyncio
 import pathlib
 
 ACTIVE_ROLL_SET : pathlib.Path | None = None

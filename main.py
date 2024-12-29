@@ -5,7 +5,7 @@ from discord import Intents
 from dotenv import load_dotenv
 import pathlib
 
-
+import games
 import images
 import songs
 import rullete
@@ -23,6 +23,7 @@ bot = commands.Bot(command_prefix='%', intents=intents)
 images.setup(bot)
 songs.setup(bot)
 rullete.setup(bot)
+games.setup.setup(bot)
 
 @bot.event
 async def on_ready():
