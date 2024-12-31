@@ -8,7 +8,7 @@ import pathlib
 import games
 import images
 import songs
-import rullete
+import gamba
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -22,7 +22,7 @@ bot = commands.Bot(command_prefix='%', intents=intents)
 
 images.setup(bot)
 songs.setup(bot)
-rullete.setup(bot)
+gamba.setup(bot)
 games.setup.setup(bot)
 
 @bot.event
