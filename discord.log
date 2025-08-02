@@ -1,0 +1,7 @@
+2025-08-02 08:05:26,808:DEBUG:discord.client: on_ready has successfully been registered as an event
+2025-08-02 08:05:26,809:INFO:discord.client: logging in using static token
+2025-08-02 08:05:27,994:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 2b23e4752b03574d387f4a92093a4d55).
+2025-08-02 08:05:32,468:INFO:discord.voice_state: Connecting to voice...
+2025-08-02 08:05:32,469:INFO:discord.voice_state: Starting voice handshake... (connection attempt 1)
+2025-08-02 08:05:32,753:INFO:discord.voice_state: Voice handshake complete. Endpoint found: c-fra06-cf77ca86.discord.media:2083
+2025-08-02 08:05:33,115:INFO:discord.voice_state: Voice connection complete.
