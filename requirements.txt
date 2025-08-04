@@ -1,6 +1,6 @@
 git+https://github.com/Rapptz/discord.py
 dotenv
-yt_dlp
+git+https://github.com/yt-dlp/yt-dlp.git
 PyNaCl
 
 #Currently pip version of discord.py has broken voice
