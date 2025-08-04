@@ -6,6 +6,11 @@ import discord
 from discord.ext import commands
 import random
 
+"""
+TO OD:
+ OPRAVIT NEJAK NONE-TYPE PICOVINY :)
+ 
+"""
 
 YTDL_OPTIONS = {
     'format': 'bestaudio/best',
@@ -99,7 +104,7 @@ async def get_precise_data(song : QueueItem):
 
 
 async def extract_queue_at_background():
-    for song in SONG_QUEUE:
+    for song in SONG_QUEUE.copy():
         async with song.semaphore:
             if song.is_flat:
                 await get_precise_data(song)
